@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/helloRENDERteste")
     public String helloWorld() {
-        return "Hello, World RENDER TESTE com PIPELINE!";
+        return "Hello, World RENDER TESTE com PIPELINE correta!";
     }
 }
